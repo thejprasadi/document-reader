@@ -1,5 +1,4 @@
 import streamlit as st
-from langchain_openai import ChatOpenAI
 from langchain_core.prompts import ChatPromptTemplate
 from langchain.schema import StrOutputParser
 from langchain_core.runnables import RunnablePassthrough
@@ -9,6 +8,7 @@ from langchain.indexes import VectorstoreIndexCreator
 from langchain.text_splitter import CharacterTextSplitter
 from langchain.embeddings import OpenAIEmbeddings
 from langchain.vectorstores import Chroma
+from langchain_openai import ChatOpenAI
 import sqlite3
 from dotenv import load_dotenv
 import os
