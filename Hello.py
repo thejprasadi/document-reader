@@ -9,7 +9,6 @@ from langchain.text_splitter import CharacterTextSplitter
 from langchain.embeddings import OpenAIEmbeddings
 from langchain.vectorstores import Chroma
 from langchain_openai import ChatOpenAI
-import sqlite3
 from dotenv import load_dotenv
 import os
 import openai
