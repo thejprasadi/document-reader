@@ -12,7 +12,7 @@ from langchain_openai import ChatOpenAI
 from dotenv import load_dotenv
 import os
 import openai
-import tempfile
+
 
 os.environ['OPENAI_API_KEY'] = st.secrets["OPENAI_API_KEY"]
 
