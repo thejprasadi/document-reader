@@ -7,5 +7,6 @@ langchain_core
 pysqlite3-binary
 tiktoken
 chromadb
+tempfile
 
 
