@@ -1,9 +1,11 @@
 
 openai
 streamlit
-python-dotenv
 langchain
 langchain_openai
-chromadb
 langchain_core
+pysqlite3-binary
+tiktoken
+chromadb
+
 
